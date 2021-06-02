@@ -17,7 +17,7 @@
  * MA 02110-1301  USA
  */
  
-from websockets import WebSocketUtils, WebSocketHandlerInterface
+from @jolie.websockets import WebSocketUtils, WebSocketHandlerInterface
 from time import Time
 from console import Console
 

@@ -1,0 +1,24 @@
+{
+	"name": "@jolie/websockets",
+	"description": "A websocket client library for Jolie",
+	"author": {
+		"name": "Fabrizio Montesi",
+		"email": "famontesi@gmail.com",
+		"url": "https://www.fabriziomontesi.com"
+	},
+	"version": "0.1.0",
+	"license": "LGPL 2.1",
+	"keywords": ["jolie", "microservices"],
+	"distJar": "jolie-websockets-0.1.0.jar",
+	"dependencies": {
+		"mvn": {
+			"org.java-websocket:Java-WebSocket": "1.5.1"
+		},
+		"npm": {}
+	},
+	"mvnPeers": {
+		"org.java-websocket:Java-WebSocket": {
+			"org.slf4j:slf4j-api": "1.7.25"
+		}
+	}
+}

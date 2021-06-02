@@ -4,10 +4,10 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>joliex.websockets</groupId>
-	<artifactId>websockets</artifactId>
+	<artifactId>jolie-websockets</artifactId>
 	<version>0.1.0</version>
 
-	<name>websockets</name>
+	<name>jolie-websockets</name>
 	<url>https://github.com/jolie/websockets</url>
 
 	<properties>

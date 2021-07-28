@@ -33,6 +33,7 @@ import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
 // @AndJarDeps( { "Java-WebSocket.jar", "slf4j-api.jar", "slf4j-simple.jar" } )
+@AndJarDeps( "slf4j-simple.jar" )
 public class WebSocketUtils extends JavaService {
 	private class JolieWebSocketClient extends WebSocketClient {
 		private final String id;

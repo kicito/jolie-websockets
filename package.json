@@ -1,0 +1,28 @@
+{
+  "name": "jolie-websockets",
+  "version": "1.0.0",
+  "description": "A websocket client library for [Jolie](https://jolie-lang.org).",
+  "main": "index.js",
+  "directories": {
+    "packages": "packages"
+  },
+  "files": ["packages", "pom.xml"],
+  "scripts": {
+    "preinstall": "node tools/preinstall-script.js",
+    "prepack": "mvn clean install && mkdir packages && find . -maxdepth 1 -not -name packages -not -name . -not -name .git -exec cp -r -t packages {} + ",
+    "postpack": "rm -rf packages"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kicito/jolie-websockets.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kicito/jolie-websockets/issues"
+  },
+  "homepage": "https://github.com/kicito/jolie-websockets#readme",
+  "dependencies": {
+  }
+}

@@ -5,5 +5,4 @@ target/
 .project
 src/
 pom.xml
-packages/
 .vscode/

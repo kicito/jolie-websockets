@@ -6,11 +6,11 @@
   "directories": {
     "packages": "packages"
   },
-  "files": ["packages", "pom.xml"],
+  "files": ["packages", "pom.xml", "tools"],
   "scripts": {
     "preinstall": "node tools/preinstall-script.js",
     "prepack": "mvn clean install && mkdir packages && find . -maxdepth 1 -not -name packages -not -name . -not -name .git -exec cp -r -t packages {} + ",
-    "postpack": "rm -rf packages"
+    "postpack": "rm -rf packages target"
   },
   "repository": {
     "type": "git",
@@ -24,5 +24,8 @@
   },
   "homepage": "https://github.com/kicito/jolie-websockets#readme",
   "dependencies": {
+  },
+  "peerDependencies": {
+    "jpm": "latest"
   }
 }
